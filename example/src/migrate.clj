@@ -1,5 +1,5 @@
 (ns migrate
-  (:require [alias :refer [load-config]]
+  (:require [joplin.alias :refer [load-config]]
             [clojure.java.io :as io]
             [joplin.repl :as repl
              :refer [migrate rollback seed reset create pending]]
